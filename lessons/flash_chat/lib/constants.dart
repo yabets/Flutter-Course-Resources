@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
 const msgContainerDecoration = BoxDecoration(
-  border: Border(
-    top: BorderSide(color: Colors.lightBlueAccent, width: 2.0)
-  )
-);
+    border: Border(top: BorderSide(color: Colors.lightBlueAccent, width: 2.0)));
 
 const sendBtnTextStyle = TextStyle(
   color: Colors.lightBlueAccent,
@@ -17,3 +14,5 @@ const msgTextFieldDecoration = InputDecoration(
   hintText: 'Type your message here...',
   border: InputBorder.none,
 );
+
+const flashImgTag = "FLASH_TAG";
